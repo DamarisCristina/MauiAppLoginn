@@ -6,4 +6,17 @@ public partial class Login : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+		try
+		{
+			List<DadosUsuarios> lista_usuarios
+
+        }
+		catch (Exception ex)
+		{
+			DisplayAlert("Opss", ex.Message, "Fechar");
+        }
+    }
 }
